@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/一、基础/03jsx/jsxbasic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/一、基础/03jsx/my-mod" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/一、基础/04综合案例评论列表/comcase" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/三component-principle/07-component-principle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/二、进阶/1.prop及通讯/lif" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/二、进阶/1.prop及通讯/prop_tongxun" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/四、路由/react_routing" vcs="Git" />
+  </component>
+</project>

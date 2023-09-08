@@ -1,25 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            color: #8fe6b1;
+        }
+        #box2{
+            color: #054bd7;
+            width: 100px;
+            height: 100px;
+            background-color: #969292;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 
 <body>
-  <div id="root">
+<div id = "root">
 
-  </div>
-  <script src="./node_modules/react/umd/react.development.js"></script>
-  <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
-  <script>
+</div>
+<div id = "box2"></div>
+<script src = "./node_modules/react/umd/react.development.js"></script>
+<script src = "./node_modules/react-dom/umd/react-dom.development.js"></script>
+<script>
 
     // 创建react元素
-    const title = React.createElement('h1', { title: '123' }, 'hello react')//名称、属性、节点
+    const title=React.createElement('h1', { className: 'box' }, 'hello react')//名称、属性、节点
     ReactDOM.render(title, document.getElementById('root'))//元素、插槽
-  </script>
+    // 创建react元素
+    const box2=React.createElement('h1', {}, 'box2')//名称、属性、节点
+    ReactDOM.render(box2, document.getElementById('box2'))//元素、插槽
+</script>
 </body>
 
 </html>
